@@ -1,0 +1,43 @@
+
+{
+  "productsList": [
+    {
+      "id": "1",
+      "name": "گوشت گوسفندی",
+      "price": "100",
+      "rate": "4",
+      "category": "meat"
+    }
+    ,{
+      "id": "2",
+      "name": "سبزی",
+      "price": "200",
+      "rate": "3",
+      "category": "fruits"
+    },{
+      "id": "3",
+      "name": "سیب",
+      "price": "180",
+      "rate": "2",
+      "category": "fruits"
+    },{
+      "id": "4",
+      "name": "نان",
+      "price": "100",
+      "rate": "5",
+      "category": "food"
+    },{
+      "id": "5",
+      "name": "گوشت گوسفندی",
+      "price": "100",
+      "rate": "4",
+      "category": "meat"
+    },{
+      "id": "6",
+      "name": "گوشت گوسفندی",
+      "price": "100",
+      "rate": "4",
+      "category": "meat"
+    }
+  ]
+}

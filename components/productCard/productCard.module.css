@@ -1,0 +1,89 @@
+
+
+
+
+
+
+
+.product {
+    box-shadow: var(--boxShadow-primary);
+    padding: 10px;
+    text-align: center;
+    background-color: #f6fafb;
+    position: relative;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    border: 1px solid #fff;
+    margin: 10px 0;
+}
+
+.product:hover {
+    border: 1px solid var(--clr-green);
+}
+.product:hover .product_button button {
+    background-color: var(--clr-green);
+    border: none;
+}
+.product:hover .product_like {
+    background-color: var(--clr-green);
+}
+.product:hover .product_like svg {
+    color: #ffff;
+}
+.product .hot {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: var(--clr-red);
+    color: #fff;
+    font-size: 12px;
+    padding: 5px 10px;
+}
+.product_like {
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 36px;
+    height: 36px;
+    margin: 10px 10px 10px auto;
+}
+.product_like svg {
+    color: var(--clr-grey);
+}
+.product_image {
+    width: 250px;
+    height: 150px;
+    object-fit: cover;
+}
+.product_rates {
+}
+.product_rates i {
+    font-size: 12px;
+}
+.product_rates svg[data-prefix="fas"] {
+    color: var(--clr-yellow);
+}
+.product_rates svg[data-prefix="far"] {
+    color: var(--clr-grey);
+}
+.product_title {
+    font-weight: bold;
+    font-size: 20px;
+    margin: 10px 0;
+}
+.product_prices {
+    font-size: 18px;
+}
+.product_price {
+    color: var(--clr-green);
+}
+.product_prices .hide {
+    color: var(--clr-grey);
+}
+.product_button button {
+    font-size: 12px;
+    margin: 10px;
+}

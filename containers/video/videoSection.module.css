@@ -1,0 +1,9 @@
+.videoSection{
+
+    padding: 60px 0;
+}
+
+.videoWrapper{
+    display: flex;
+    justify-content: center;
+}

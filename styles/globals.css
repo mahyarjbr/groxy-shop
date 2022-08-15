@@ -1,26 +1,139 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+@font-face {
+  font-family: Vazir;
+  src: url("./fonts/Vazir.eot");
+  src: url("./fonts/Vazir.eot?#iefix") format("embedded-opentype"),
+    url("./fonts/Vazir.woff") format("woff"),
+    url("./fonts/Vazir.ttf") format("truetype");
+  font-weight: normal;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+@font-face {
+  font-family: Vazir;
+  src: url("./fonts/Vazir-Bold.eot");
+  src: url("./fonts/Vazir-Bold.eot?#iefix") format("embedded-opentype"),
+    url("./fonts/Vazir-Bold.woff") format("woff"),
+    url("./fonts/Vazir-Bold.ttf") format("truetype");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: Vazir;
+  src: url("./fonts/Vazir-Light.eot");
+  src: url("./fonts/Vazir-Light.eot?#iefix") format("embedded-opentype"),
+    url("./fonts/Vazir-Light.woff") format("woff"),
+    url("./fonts/Vazir-Light.ttf") format("truetype");
+  font-weight: 300;
+}
+
+/* general styles */
+
+:root {
+  --clr-green: #9fcb22;
+  --clr-green-light: #c2ed47;
+  --clr-green-dark: #14462e;
+  --clr-grey-dark: #9f9e9a;
+  --clr-blue-light: #a0ded4;
+  --clr-grey: #c0c1c2;
+  --clr-grey-light:#f6fafb;
+  --clr-yellow: #fccc42;
+  --clr-red: #d9485b;
+
+  --line-height: 30px;
+  --boxShadow-primary: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
+body {
+  direction: rtl;
+  color: black;
+  position: relative;
+}
+
+img{
+  max-width: 100%;
+  height: auto;
+}
+
+input {
+  direction: rtl !important;
+}
+
+a {
+  text-decoration: none;
+}
+li {
+  list-style-type: none;
+}
+
+.container {
+  padding: 0 10%;
+}
+
+.pr-0 {
+  padding-right: 0 !important;
+}
+
+
+.btn__secondary {
+  width: 120px;
+  height: 40px;
+  background-color: var(--clr-green-dark);
+  color: white;
+  text-align: center;
+  font-size: 14px;
+  border-radius: 0;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+
+.mt_100 {
+  margin-top: 100px;
+}
+.mt_30 {
+  margin-top: 30px;
+}
+
+.mx_10 {
+  margin: 10px 0;
+}
+.ml_5 {
+  margin-left: 5px;
+}
+
+/*----- index page styles */
+
+/* ---headers styles */
+
+
+/* responsive*/
+
+
+
+@media only screen and (max-width: 1200px) {
+
+
+
+}
+
+@media only screen and (max-width: 992px) {
+
+  .container{
+    padding: 0 5%;
   }
-  body {
-    color: white;
-    background: black;
-  }
+
+}
+@media only screen and (max-width: 768px) {
+
+
+
+
+}
+@media only screen and (max-width: 576px) {
+
 }

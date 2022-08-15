@@ -1,0 +1,94 @@
+
+.testimonials{
+    margin-top: 100px;
+
+}
+
+.testimonials blockquote{
+    position: relative;
+    /* background: #ddd; */
+}
+ .quote{
+    color: var(--clr-green);
+    font-size: 40px;
+     transform: rotateY(180deg);
+     display: block;
+
+}
+
+/*.testimonials blockquote:before {*/
+/*    position: absolute;*/
+/*    content: close-quote;*/
+/*    font-size: 6em;*/
+/*   color: var(--clr-green);*/
+/*    top: -20px;*/
+/*}*/
+
+.products_subtitle {
+    color: var(--clr-green);
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.products_title {
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 30px;
+
+}
+
+
+.testimonial{
+    background-color: var(--clr-grey-light);
+    padding: 40px 30px;
+    border-top: 3px solid var(--clr-green);
+    margin-top: 20px;
+    text-align: justify;
+}
+.content{
+text-align: justify;
+    line-height: var(--line-height);
+    font-weight: normal;
+}
+.rates{
+margin-top: 10px;
+}
+.rates svg{
+    color: var(--clr-yellow);
+    font-size: 12px;
+    margin: 0 1px;
+
+}
+.name{
+margin-top: 10px;
+  font-weight: bold;
+}
+
+
+
+@media only screen and (max-width: 1200px) {
+
+
+
+}
+
+@media only screen and (max-width: 992px) {
+
+
+
+}
+@media only screen and (max-width: 768px) {
+
+
+
+
+}
+@media only screen and (max-width: 576px) {
+    .testimonial{
+        padding: 20px 15px;
+        font-size: 14px;
+    }
+}

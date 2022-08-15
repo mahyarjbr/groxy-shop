@@ -1,0 +1,14 @@
+.productDetail{
+    margin-top: 100px;
+}
+
+
+.imageWrapper{
+    background: url("../../public/images/detailBig-removebg-preview.png");
+    background-position: center;
+    background-size: contain;
+    min-height: 400px;
+    background-repeat: no-repeat;
+    background-color: var(--clr-grey-light);
+
+}

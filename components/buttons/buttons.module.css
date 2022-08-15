@@ -1,0 +1,26 @@
+
+
+.btn__primary {
+    width: 120px;
+    height: 40px;
+    background-color: var(--clr-green);
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    border: none;
+    font-weight: bold;
+    transition: 0.3s;
+    outline: none;
+
+
+}
+.btn__primary:hover {
+    background-color: var(--clr-green-dark);
+    color: white;
+}
+
+.btn__primary:focus{
+
+
+}
+
